@@ -12,7 +12,7 @@ public class App {
 		
 		Mundo m = (Mundo) appContext.getBean("mundo"); // También se podría poner Mundo.class
 		
-		System.out.println(m.getSaludo());
+		System.out.println(m.getSaludo() + " " + m.getNombre());
 
 	}
 

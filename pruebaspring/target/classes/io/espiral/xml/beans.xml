@@ -4,7 +4,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <bean id="mundo" class="io.espiral.beans.Mundo">
-	<property name="saludo" value="¡Hola Mundo!"></property>
+	<property name="saludoMundo" value="¡Hola Mundo!"></property>
+	<property name="saludo" value="Hola"></property>
+	<property name="nombre" value="Bora"></property>
 </bean>
 
 </beans>
